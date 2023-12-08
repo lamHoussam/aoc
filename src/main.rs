@@ -1,7 +1,7 @@
 
-mod aoc2;
 mod aoc1;
-
+mod aoc2;
+mod aoc3;
 
 fn main() {
 /*
@@ -16,15 +16,21 @@ fn main() {
 */
 
 /*
-    ///Day 2
+    /// Day 2
     let v = crate::aoc2::get_correct_ids_sum("src/aoc2/input.txt");
     println!("{}", v.unwrap_or_default());
 
     /// Part2
-    
-    */
-    
     let v = crate::aoc2::get_power_set_sum("src/aoc2/input.txt");
     println!("{}", v.unwrap_or_default());
+    
+    */
 
+    
+/*
+    /// Day3
+*/
+
+    let v = crate::aoc3::get_engine_sum("src/aoc3/input.txt");
+    println!("{}", v.unwrap());
 }
